@@ -90,16 +90,16 @@ See [docs/architecture.md](docs/architecture.md), [docs/data_dictionary.md](docs
 
 ```text
 CommerceLab/
-��� .github/workflows/ci.yml
-��� data/sample/               # deterministic simulated event CSV
-��� docs/                      # architecture, data dictionary, publishing checklist
-��� screenshots/               # desktop and mobile captures from the running app
-��� scripts/                   # sample generator and validation command
-��� sql/                       # BigQuery extraction and analytics
-��� src/commercelab/           # ingestion, validation, analysis, dashboard
-��� tests/
-��� pyproject.toml
-��� README.md
+├── .github/workflows/ci.yml
+├── data/sample/               # deterministic simulated event CSV
+├── docs/                      # architecture, data dictionary, publishing checklist
+├── screenshots/               # desktop and mobile captures from the running app
+├── scripts/                   # sample generator and validation command
+├── sql/                       # BigQuery extraction and analytics
+├── src/commercelab/           # ingestion, validation, analysis, dashboard
+├── tests/
+├── pyproject.toml
+└── README.md
 ```
 
 ## CI and publishing
@@ -109,4 +109,3 @@ GitHub Actions installs the package, runs Ruff and pytest, and checks the bundle
 ## License
 
 MIT. See [LICENSE](LICENSE).
-
