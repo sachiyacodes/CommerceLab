@@ -7,7 +7,7 @@
 - [x] Confirm BigQuery is optional, credentials are supplied via ADC, and the billing warning is visible in README.
 - [x] Check local Markdown links and review spelling in README and docs.
 - [x] Suggested repository name: `commercelab`. Description: `GA4 ecommerce customer behavior and product analytics with a reproducible Streamlit demo.`
-- [x] Local Git repository initialized on `main`; reviewed and committed locally. The branch is ready to connect to a remote.
-- [ ] Create the remote repository as public only after reviewing its contents; push the default branch.
-- [ ] Confirm GitHub Actions runs on the remote and update the README only with the observed CI status.
+- [x] Default branch published at `sachiyacodes/CommerceLab`.
+- [x] Public source reviewed and pushed; synthetic data contains no private analytics exports.
+- [x] GitHub Actions passed for published baseline `a6296e99919fb1e1e5f2a78d38a3245d24d92860`; see the verification record. Every release still requires CI at its exact commit.
 - [ ] If a BigQuery run is demonstrated, record date range, billing project configuration, and exact query/schema version; do not upload credentials.
